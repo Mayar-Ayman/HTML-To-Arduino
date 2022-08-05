@@ -44,6 +44,8 @@ Add textbox to appear spoken word
  <textarea  id="textbox" rows="6" class="form-control"></textarea>
  </div>
  ```
+ ![Screenshot (347)](https://user-images.githubusercontent.com/108824980/183221678-3519b430-a63b-4a35-9157-67c02bf7e43b.png)
+
 
 
 
