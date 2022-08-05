@@ -7,11 +7,16 @@ All HTML documents must start with a <!DOCTYPE> declaration
 ```
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>\\\\
+<style>
+</style>
+<head>
 <title>speech to text</title>
 </head>
 <body>
 </body>
+<script src="script.js"></script>
+<script src="arduino.js"></script>
+</html>
 ```
 
  Now specify the character encoding for the HTML document
