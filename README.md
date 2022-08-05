@@ -5,7 +5,7 @@
 All HTML documents must start with a <!DOCTYPE> declaration.\
 `<!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>`
+<head>`\
 The charset attribute specifies the character encoding for the HTML document.
  <meta charset="utf-8">
  <title>speech to text in javascript</title>
