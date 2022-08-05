@@ -84,6 +84,19 @@ body style
 
 `.container {
     text-align: center;
+    }
+    textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
     }` .
     
- ![image](https://user-images.githubusercontent.com/108824980/183223359-3d89c1b4-3043-47e3-8ab2-1bd72485dba3.png)
+![image](https://user-images.githubusercontent.com/108824980/183223932-8c40bd5a-92e9-4951-a86a-a2c1cbb1e6e5.png)
+ 
+ button:hover,select:hover {
+    background: rgb(197, 161, 230);
+    color: white;
+    }
+ 
