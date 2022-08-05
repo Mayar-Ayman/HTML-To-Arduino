@@ -12,9 +12,14 @@ All HTML documents must start with a <!DOCTYPE> declaration
 
 </style>
 <head>
+
 <title>speech to text</title>
+
+
 </head>
 <body>
+
+
 </body>
 <script src="script.js"></script>
 <script src="arduino.js"></script>
