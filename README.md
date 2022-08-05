@@ -79,7 +79,7 @@ body style
  ```
             
             
-  ![image](https://user-images.githubusercontent.com/108824980/183223189-a6e40452-d71a-42b4-a3dc-a8a52a4757d4.png)\
+  ![image](https://user-images.githubusercontent.com/108824980/183223189-a6e40452-d71a-42b4-a3dc-a8a52a4757d4.png).
 
 
 `.container {
