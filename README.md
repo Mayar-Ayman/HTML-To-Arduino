@@ -12,3 +12,5 @@ All HTML documents must start with a <!DOCTYPE> declaration
 
  Now specify the character encoding for the HTML document
 `<meta charset="utf-8">`
+
+Add The title of your page `<title>speech to text</title> `
