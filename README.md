@@ -8,6 +8,8 @@ All HTML documents must start with a <!DOCTYPE> declaration
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <style>
+
+
 </style>
 <head>
 <title>speech to text</title>
