@@ -45,11 +45,17 @@ Add textbox to appear spoken word
  </div>
  ```
  ![Screenshot (347)](https://user-images.githubusercontent.com/108824980/183221678-3519b430-a63b-4a35-9157-67c02bf7e43b.png)
+Now we put two buttons one to start and the other one to connection.
 
-
-
-
-
+```
+<div class="form-group">
+ <button id="start-btn"  class="btn btn-danger btn-block" title="" >
+   Start
+ </button>
+<button class = "btn btn-danger btn-block" onclick="onConnectUsb()" id="connect-usb">
+  connection
+</button>
+```
 
 
 
