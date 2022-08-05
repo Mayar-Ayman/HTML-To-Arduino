@@ -3,11 +3,10 @@
 *First need to use HTML, CSS, JavaScript, Arduino IDE and Arduino UNO.\
 * HTML:\
 All HTML documents must start with a <!DOCTYPE> declaration.\
-```
-<!DOCTYPE html>
+`<!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>
- ```\
+<head>```
+ 
  <meta charset="utf-8">
  
  <title>speech to text in javascript</title>
