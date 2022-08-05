@@ -84,6 +84,6 @@ body style
 
 `.container {
     text-align: center;
-    }`
+    }` \
     
-    ![image](https://user-images.githubusercontent.com/108824980/183223359-3d89c1b4-3043-47e3-8ab2-1bd72485dba3.png)
+ ![image](https://user-images.githubusercontent.com/108824980/183223359-3d89c1b4-3043-47e3-8ab2-1bd72485dba3.png)
