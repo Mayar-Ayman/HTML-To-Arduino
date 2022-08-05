@@ -4,5 +4,5 @@
 * HTML:\
 All HTML documents must start with a <!DOCTYPE> declaration
 ```<!DOCTYPE html>
-\<html lang="en" dir="ltr">
+<html lang="en" dir="ltr">
 <head>```
