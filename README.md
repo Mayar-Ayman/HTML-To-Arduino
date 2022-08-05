@@ -28,7 +28,7 @@ All HTML documents must start with a `<!DOCTYPE>` declaration
 
  At the top this is the basic formula  `<meta charset="utf-8">`  this command is specify the character encoding for the HTML document\
  Add The title of your page `<title>speech to text</title> ` .\
- On the body part we will add the interface design
+ **On the body part we will add the interface design**
  
  ```
  <div class="container">
@@ -36,4 +36,18 @@ All HTML documents must start with a `<!DOCTYPE>` declaration
  Speech to Text
  </h1>
  ```
+Here we have entered text
 ![Screenshot (346)](https://user-images.githubusercontent.com/108824980/183220935-03b92617-c2c3-4a40-9325-f88fc9d207fd.png)
+Add textbox to appear spoken word
+```
+<div class="form-group">
+ <textarea  id="textbox" rows="6" class="form-control"></textarea>
+ </div>
+ ```
+
+
+
+
+
+
+
