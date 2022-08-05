@@ -27,4 +27,12 @@ All HTML documents must start with a `<!DOCTYPE>` declaration
 ```
 
  At the top this is the basic formula  `<meta charset="utf-8">`  this command is specify the character encoding for the HTML document\
- Add The title of your page `<title>speech to text</title> ` .
+ Add The title of your page `<title>speech to text</title> ` .\
+ On the body part we will add the interface design
+ 
+ ```
+ <div class="container">
+ <h1 class="text-center mt-5">
+ Speech to Text
+ </h1>
+ ```
