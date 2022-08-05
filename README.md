@@ -2,10 +2,10 @@
 **In this repository i will explain how can send orders from HTML to Arduinou UNO.**\
 *First need to use HTML, CSS, JavaScript, Arduino IDE and Arduino UNO.\
 * HTML:\
-All HTML documents must start with a <!DOCTYPE> declaration.\
-<!DOCTYPE html>
+All HTML documents must start with a <!DOCTYPE> declaration.
+`<!DOCTYPE html>
 <html lang="en" dir="ltr">
-<head>\
+<head>`\
 The charset attribute specifies the character encoding for the HTML document.
  <meta charset="utf-8">
  <title>speech to text in javascript</title>
