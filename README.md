@@ -3,13 +3,18 @@
 *First need to use HTML, CSS, JavaScript, Arduino IDE and Arduino UNO.\
 * HTML:\
 All HTML documents must start with a <!DOCTYPE> declaration.\
-```<!DOCTYPE html>
+<!DOCTYPE html>
+
 <html lang="en" dir="ltr">
-<head>```\
-The charset attribute specifies the character encoding for the HTML document.
+
+<head>
+
  <meta charset="utf-8">
+
  <title>speech to text in javascript</title>
-<style>
+
+
+ <style>
     *{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
