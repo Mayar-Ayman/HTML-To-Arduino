@@ -9,3 +9,6 @@ All HTML documents must start with a <!DOCTYPE> declaration
 <html lang="en" dir="ltr">
 <head>
 ```
+
+Specify the character encoding for the HTML document
+`<meta charset="utf-8">`
