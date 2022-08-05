@@ -7,12 +7,12 @@ All HTML documents must start with a `<!DOCTYPE>` declaration
 ```
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
 <style>
 
 
 </style>
-<head>
-
 <title>speech to text</title>
 
 
