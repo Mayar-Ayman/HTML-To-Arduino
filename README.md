@@ -28,7 +28,7 @@ All HTML documents must start with a `<!DOCTYPE>` declaration
 
  At the top this is the basic formula  `<meta charset="utf-8">`  this command is specify the character encoding for the HTML document\
  Add The title of your page `<title>speech to text</title> ` .\
- **On the body part we will add the interface design**
+ **First the body part we will add the interface design**
  
  ```
  <div class="container">
@@ -60,3 +60,5 @@ Now we put two buttons one to start and the other one to connection.
 
 put text under the two buttons
 `<p id="instructions">Press the Start button to start speech or connect button to connect to serial port</p>`
+
+**Second the style part we will add the interface design**
