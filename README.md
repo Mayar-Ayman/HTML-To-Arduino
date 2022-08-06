@@ -206,10 +206,11 @@ Calling `requestPort()` prompts the user to select a device and returns a `Seria
 After that write your code on Arduino IDE and put it inside other folder with arduino.js .\
 
 
-refrences:\
-https://web.dev/serial/\
+* refrences:\
+https://web.dev/serial/
+\
 W3school\
 
 
-Tis repository create by:\
+* This repository create by:\
 Mayar Ayman Hamouh
