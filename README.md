@@ -199,6 +199,10 @@ Calling `requestPort()` prompts the user to select a device and returns a `Seria
  The command 
 ` catch (e) {
       console.log("err", e);
-    }` used to clarify.
+    }` used to clarify.\
     
-    ![image](https://user-images.githubusercontent.com/108824980/183252207-9cd3afa9-648e-44d3-9ec1-074964351577.png)
+    ![image](https://user-images.githubusercontent.com/108824980/183252234-7cfb166e-59fe-4326-8d4b-e43fce4c3d67.png)
+
+    
+   
+
