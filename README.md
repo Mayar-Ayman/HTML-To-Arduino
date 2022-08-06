@@ -194,5 +194,3 @@ Calling `requestPort()` prompts the user to select a device and returns a `Seria
       writer = port.writable.getWriter();
       isConnectted = true;
  ```
-
-  
