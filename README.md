@@ -91,6 +91,14 @@ body style
     border-radius: 50px;
     font-size: 20px;
     margin-bottom: 10px;
+    }
+     button,select{
+    padding: 14px 70px ;
+    background: rgb(234, 231, 231);
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
     }` .
     
 ![image](https://user-images.githubusercontent.com/108824980/183223932-8c40bd5a-92e9-4951-a86a-a2c1cbb1e6e5.png)
