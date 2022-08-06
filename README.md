@@ -102,7 +102,7 @@ body style
     }``` .
     
 
-This command shows a calor when you press on buttons\
+
  
  ```
  button:hover,select:hover {
