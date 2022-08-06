@@ -105,14 +105,12 @@ body style
 
  ![image](https://user-images.githubusercontent.com/108824980/183247747-ae09d318-3871-45ed-a695-cac06177c53a.png)
    
-   This code shows a color when you click on one of the buttons
+   This command shows a color when you click on one of the buttons
   `button:hover,select:hover {
     background: rgb(216, 210, 211);
     color: rgb(23, 21, 21);
     }
      .`
-    
-    
    ![image](https://user-images.githubusercontent.com/108824980/183247776-7217e7a0-d7f5-4bbf-9d17-6138221a57bb.png)
 
 
