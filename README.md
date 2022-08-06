@@ -193,4 +193,4 @@ Calling `requestPort()` prompts the user to select a device and returns a `Seria
       await port.open({ baudRate: 115200 });
       writer = port.writable.getWriter();
       isConnectted = true;
- ```
+
