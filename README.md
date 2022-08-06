@@ -196,12 +196,19 @@ Calling `requestPort()` prompts the user to select a device and returns a `Seria
       isConnectted = true;
 ```
 
- The command 
-` catch (e) {
+ The command ` catch (e) {
       console.log("err", e);
-    }` used to clarify.\
+    }` used to clarify.
     
-    ![image](https://user-images.githubusercontent.com/108824980/183252234-7cfb166e-59fe-4326-8d4b-e43fce4c3d67.png)
+    now
+    
+    
+    
+    
+    
+    
+    ![image](https://user-images.githubusercontent.com/108824980/183252273-3a26a3b7-1ac5-4ce6-91c0-24ceb5545709.png)
+
 
     
    
