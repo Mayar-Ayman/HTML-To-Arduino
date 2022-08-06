@@ -186,3 +186,23 @@ The `navigator.serial.requestPort()` function takes an optional object literal t
         filters: [{ usbVendorId: 0x2341 }],
       };
       
+Calling `requestPort()` prompts the user to select a device and returns a `SerialPort` object. Once you have a `SerialPort` object, calling `port.open()` with the desired baud rate will open the serial port. The `baudRate` dictionary member specifies how fast data is sent over a serial line./
+
+```
+ port = await navigator.serial.requestPort(requestOptions);
+      await port.open({ baudRate: 115200 });
+      writer = port.writable.getWriter();
+      isConnectted = true;
+ ```
+ the command:
+ 
+ ```
+  catch (e) {
+      console.log("err", e);
+    }
+  ```
+  used to clarify.
+  
+  ![image](https://user-images.githubusercontent.com/108824980/183251721-ad642624-c065-4d2c-ae6d-d44b17d744c9.png)
+
+  
