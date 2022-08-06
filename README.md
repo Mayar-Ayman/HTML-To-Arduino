@@ -114,7 +114,7 @@ body style
    ![image](https://user-images.githubusercontent.com/108824980/183247776-7217e7a0-d7f5-4bbf-9d17-6138221a57bb.png)
    
    **JavaScript files:** 
-   * We must create two JavaScript files:
+   * We must create two JavaScript files: \
    1.the first one for convert speech to text.\
    2.the second file for connect Arduio to the HTML.
   
