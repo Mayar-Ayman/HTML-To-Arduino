@@ -202,3 +202,5 @@ Calling `requestPort()` prompts the user to select a device and returns a `Seria
  
  
 ![image](https://user-images.githubusercontent.com/108824980/183252316-133227c1-12a7-4a22-9d1c-cc755f4a3bb2.png)
+
+After that write your code on Arduino IDE and put it inside other folder with arduino.js .
