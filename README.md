@@ -81,7 +81,7 @@ body style
  ```
             
             
-  ![image](https://user-images.githubusercontent.com/108824980/183223189-a6e40452-d71a-42b4-a3dc-a8a52a4757d4.png).
+ ![image](https://user-images.githubusercontent.com/108824980/183247700-81322dc2-757b-4127-a016-3a10e0c38ff7.png).
   
     .container {
     text-align: center;
@@ -101,12 +101,9 @@ body style
     cursor: pointer;
     color: rgb(0, 0, 0);
     }
-    button:hover,select:hover {
-    background: rgb(216, 210, 211);
-    color: rgb(23, 21, 21);
-    }
+    
 
-   ![image](https://user-images.githubusercontent.com/108824980/183225108-ed25368d-3ce1-42d2-b5f2-a1f21a69ce0d.png)
+ ![image](https://user-images.githubusercontent.com/108824980/183247747-ae09d318-3871-45ed-a695-cac06177c53a.png)
    
    This code shows a color when you click on one of the buttons
   `button:hover,select:hover {
