@@ -81,9 +81,26 @@ body style
             
   ![image](https://user-images.githubusercontent.com/108824980/183223189-a6e40452-d71a-42b4-a3dc-a8a52a4757d4.png).
 
-
-
-    
+`
+`
+.container {
+    text-align: center;
+    }
+    textarea {
+    width: 100%;
+    height: 200px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    }
+     button,select{
+    padding: 14px 70px ;
+    background: rgb(234, 231, 231);
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    }``` .
     
     
     ![image](https://user-images.githubusercontent.com/108824980/183225108-ed25368d-3ce1-42d2-b5f2-a1f21a69ce0d.png) 
