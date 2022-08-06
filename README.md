@@ -82,7 +82,7 @@ body style
   ![image](https://user-images.githubusercontent.com/108824980/183223189-a6e40452-d71a-42b4-a3dc-a8a52a4757d4.png).
 
 
-`.container {
+```.container {
     text-align: center;
     }
     textarea {
@@ -99,7 +99,7 @@ body style
     border-radius: 10px;
     cursor: pointer;
     color: rgb(0, 0, 0);
-    }` .
+    }``` .
     
 ![image](https://user-images.githubusercontent.com/108824980/183223932-8c40bd5a-92e9-4951-a86a-a2c1cbb1e6e5.png)
  
