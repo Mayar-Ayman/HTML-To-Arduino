@@ -176,4 +176,13 @@ let isConnectted = false;
   }
   ```
 TextEncoder takes a stream of code points as input and emits a stream of bytes `TextEncoder().`\
-The `navigator.serial.requestPort()` function takes an optional object literal that defines filters. Those are used to match any serial device connected over USB with a mandatory USB vendor` (usbVendorId)` and optional USB product identifiers `(usbProductId)` [^1].
+The `navigator.serial.requestPort()` function takes an optional object literal that defines filters. Those are used to match any serial device connected over USB with a mandatory USB vendor` (usbVendorId)` and optional USB product identifiers `(usbProductId)`.\
+
+```
+ async function onConnectUsb() {
+    try {
+      const requestOptions = {
+        // Filter on devices with the Arduino USB vendor ID.
+        filters: [{ usbVendorId: 0x2341 }],
+      };
+      ```
