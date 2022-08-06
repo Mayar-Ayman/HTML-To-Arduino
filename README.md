@@ -193,16 +193,12 @@ Calling `requestPort()` prompts the user to select a device and returns a `Seria
       await port.open({ baudRate: 115200 });
       writer = port.writable.getWriter();
       isConnectted = true;
- 
+```
 
-*the command:
- 
- ```
- catch (e) {
+the command:` catch (e) {
       console.log("err", e);
-    }
-  
-  *used to clarify.
+    }`
+  used to clarify.
   
   ![image](https://user-images.githubusercontent.com/108824980/183251721-ad642624-c065-4d2c-ae6d-d44b17d744c9.png)
 
