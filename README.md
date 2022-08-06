@@ -1,7 +1,7 @@
 # HTML-To-Arduino
 **In this repository i will explain how can send orders from HTML to Arduinou UNO.**\
 First need to use HTML, CSS, JavaScript, Arduino IDE and Arduino UNO.
-* HTML:\
+**HTML:**
 All HTML documents must start with a `<!DOCTYPE>` declaration
 
 ```
@@ -28,7 +28,7 @@ All HTML documents must start with a `<!DOCTYPE>` declaration
 
  At the top this is the basic formula  `<meta charset="utf-8">`  this command is specify the character encoding for the HTML document\
  Add The title of your page `<title>speech to text</title> ` .\
- **First, the body part we will add the interface design**
+ * First, the body part we will add the interface design
  
  ```
  <div class="container">
@@ -63,7 +63,7 @@ put text under the two buttons
 ![image](https://user-images.githubusercontent.com/108824980/183247643-298f127d-0cc6-4043-9cdf-8ff18458a08e.png)
 
 
-**Second, the style part we will add the style design**\
+* Second, the style part we will add the style design
 body style
 
 ```
@@ -113,12 +113,12 @@ body style
      .`
    ![image](https://user-images.githubusercontent.com/108824980/183247776-7217e7a0-d7f5-4bbf-9d17-6138221a57bb.png)
    
-   * JavaScript files:\
-   **We must create two JavaScript files:**
+   **JavaScript files:**
+   * We must create two JavaScript files:
    *the first one for convert speech to text.\
-   *the second file for connect Arduio to the HTML.\
+   *the second file for connect Arduio to the HTML.
   
-  **Convert speach to text JavaSript file**
+  * Convert speach to text JavaSript file
   
   ```
   <script>
