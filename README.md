@@ -199,17 +199,6 @@ Calling `requestPort()` prompts the user to select a device and returns a `Seria
  The command ` catch (e) {
       console.log("err", e);
     }` used to clarify.
-    
-    now
-    
-    
-    
-    
-    
-    
-    ![image](https://user-images.githubusercontent.com/108824980/183252273-3a26a3b7-1ac5-4ce6-91c0-24ceb5545709.png)
-
-
-    
-   
-
+ 
+ 
+ asasssssssssss
