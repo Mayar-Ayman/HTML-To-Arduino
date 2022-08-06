@@ -209,7 +209,7 @@ After that write your code on Arduino IDE and put it inside other folder with ar
 * refrences:\
 https://web.dev/serial/
 \
-W3school\
+W3school
 
 
 * This repository create by:\
