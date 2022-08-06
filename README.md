@@ -60,6 +60,8 @@ Now we put two buttons one to start and the other one to connection.
 
 put text under the two buttons
 `<p id="instructions">Press the Start button to start speech or connect button to connect to serial port</p>`
+![image](https://user-images.githubusercontent.com/108824980/183247643-298f127d-0cc6-4043-9cdf-8ff18458a08e.png)
+
 
 **Second, the style part we will add the style design**\
 body style
