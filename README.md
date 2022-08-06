@@ -108,7 +108,7 @@ body style
    
    This code shows a color when you click on one of the buttons
    
-  ``` 
+  
   button:hover,select:hover {
     background: rgb(216, 210, 211);
     color: rgb(23, 21, 21);
