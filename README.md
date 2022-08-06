@@ -82,7 +82,8 @@ body style
   ![image](https://user-images.githubusercontent.com/108824980/183223189-a6e40452-d71a-42b4-a3dc-a8a52a4757d4.png).
 
 
-```.container {
+```
+.container {
     text-align: center;
     }
     textarea {
@@ -100,6 +101,10 @@ body style
     cursor: pointer;
     color: rgb(0, 0, 0);
     } .
+    
+    
+    
+    ![image](https://user-images.githubusercontent.com/108824980/183225108-ed25368d-3ce1-42d2-b5f2-a1f21a69ce0d.png) 
     
 
 
