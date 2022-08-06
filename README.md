@@ -195,7 +195,4 @@ Calling `requestPort()` prompts the user to select a device and returns a `Seria
       isConnectted = true;
  ```
 
-
-  ![image](https://user-images.githubusercontent.com/108824980/183251721-ad642624-c065-4d2c-ae6d-d44b17d744c9.png)
-
   
