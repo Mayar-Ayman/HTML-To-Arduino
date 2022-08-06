@@ -21,6 +21,7 @@ All HTML documents must start with a `<!DOCTYPE>` declaration
 
 
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="script.js"></script>
 <script src="arduino.js"></script>
 </html>
@@ -41,7 +42,7 @@ Here we have entered text
 Add textbox to appear spoken word
 ```
 <div class="form-group">
- <textarea  id="textbox" rows="6" class="form-control"></textarea>
+ <textarea  id="textbox1" rows="6" class="form-control"></textarea>
  </div>
  ```
  ![Screenshot (347)](https://user-images.githubusercontent.com/108824980/183221678-3519b430-a63b-4a35-9157-67c02bf7e43b.png)
@@ -49,7 +50,7 @@ Now we put two buttons one to start and the other one to connection.
 
 ```
 <div class="form-group">
- <button id="start-btn"  class="btn btn-danger btn-block" title="" >
+ <button id="startbtn"  class="btn btn-danger btn-block" title="" >
    Start
  </button>
 <button class = "btn btn-danger btn-block" onclick="onConnectUsb()" id="connect-usb">
@@ -118,7 +119,7 @@ body style
    1.the first one for convert speech to text.\
    2.the second file for connect Arduio to the HTML.
   
-  * Convert speach to text JavaSript file
+  * Convert speach to text JavaSript file.
   
   ```
   <script>
@@ -135,6 +136,7 @@ body style
    
    textbox1.innerHTML = transcript;
    })
+   recognition.lang="ar";
    
    if(speech == true){
    recognition.start();
@@ -143,3 +145,34 @@ body style
 </script>
 ```
   
+The `recognition.lang="ar";` use for Arabic language.
+
+![image](https://user-images.githubusercontent.com/108824980/183250685-c010f853-b05e-4ca1-b0c6-e1bb3715b138.png)
+
+* To send commands from HTML to Arduio UNO.
+* 
+```
+let isConnectted = false;
+    let port;
+    let writer;
+    var target_id;
+    const enc = new TextEncoder()
+    
+  async function onConnectUsb() {
+    try {
+      const requestOptions = {
+        // Filter on devices with the Arduino USB vendor ID.
+        filters: [{ usbVendorId: 0x2341 }],
+      };
+
+      // Request an Arduino from the user.
+      port = await navigator.serial.requestPort(requestOptions);
+      await port.open({ baudRate: 115200 });
+      writer = port.writable.getWriter();
+      isConnectted = true;
+    } catch (e) {
+      console.log("err", e);
+    }
+  }
+  ```
+TextEncoder takes a stream of code points as input and emits a stream of bytes `TextEncoder().`
