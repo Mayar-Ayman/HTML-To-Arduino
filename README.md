@@ -185,4 +185,4 @@ The `navigator.serial.requestPort()` function takes an optional object literal t
         // Filter on devices with the Arduino USB vendor ID.
         filters: [{ usbVendorId: 0x2341 }],
       };
-      ```
+      
